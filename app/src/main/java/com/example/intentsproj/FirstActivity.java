@@ -35,8 +35,7 @@ public class FirstActivity extends AppCompatActivity {
         EditText editText4=(EditText) findViewById(R.id.editText4);
 
 
-       // int num3= Integer.parseInt(editText3.getText().toString());
-        //int num4= Integer.parseInt(editText4.getText().toString());
+       
 
         String message1= editText3.getText().toString();
         String message2= editText4.getText().toString();
@@ -51,8 +50,7 @@ public class FirstActivity extends AppCompatActivity {
         int duration = Toast.LENGTH_SHORT; //How long the toast message will lasts
         Toast toast = Toast.makeText(context, message, duration); toast.show();
 
-        // Intent[] intent={intent3, intent4};
-       // startActivities(intent);
+        
         startActivity(intent3);
 
     }
